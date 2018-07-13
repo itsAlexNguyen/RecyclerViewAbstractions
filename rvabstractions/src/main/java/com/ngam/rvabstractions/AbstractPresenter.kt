@@ -3,7 +3,7 @@ package com.ngam.rvabstractions
 /**
  * This represents the Presenter layer.
  */
-public abstract class AbstractPresenter {
+abstract class AbstractPresenter {
     /**
      * This begins logic for the Presenter.
      */

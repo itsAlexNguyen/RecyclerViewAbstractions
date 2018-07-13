@@ -6,7 +6,7 @@ import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 
-public abstract class AbstractActivity<Presenter: AbstractPresenter, Adapter: AbstractDataBindAdapter>:
+abstract class AbstractActivity<Presenter: AbstractPresenter, Adapter: AbstractDataBindAdapter>:
         AppCompatActivity() {
     // DataSource
     protected lateinit var dataSource: AbstractClassProperties<Presenter, Adapter>
