@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-abstract class AbstractDataBinder <T: RecyclerView.ViewHolder> {
+public abstract class AbstractDataBinder <T: RecyclerView.ViewHolder> {
     /**
      * Returns inflated view.
      */

@@ -6,7 +6,7 @@ import android.view.ViewGroup
 /**
  * This contains information for binding multiple views to an adapter.
  */
-abstract class AbstractDataBindAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+public abstract class AbstractDataBindAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     protected var listItems : ArrayList<AbstractDataBinder<*>> = ArrayList()
 
     // Creates ViewHolder given unique ViewType

@@ -9,7 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-abstract class AbstractFragment<Presenter: AbstractPresenter, Adapter: AbstractDataBindAdapter>: Fragment() {
+public abstract class AbstractFragment<Presenter: AbstractPresenter, Adapter: AbstractDataBindAdapter>: Fragment() {
     // DataSource
     protected lateinit var dataSource: AbstractClassProperties<Presenter, Adapter>
     // Presenter and Adapter
